@@ -1,4 +1,4 @@
-from rest_framework i-mport permissions
+from rest_framework import permissions
 
 class UpdateOwnProfile(permissions.BasePermission):
     """Allow the users to edit their own profile"""
